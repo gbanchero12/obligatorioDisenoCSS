@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+* {
+    margin: 0;
+    padding: 0
+}
+
+header,
+section,
+article,
+main {
+    display: block;
+}
+
+body {
+    background: url(img/pattern.jpg);
+    font-family: 'Be Vietnam', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: rgb(65, 59, 59);
+}
+
+
+/*arriba derecha abajo izquierda*/
+
+#figure1 {
+    margin: 0px 10px 0px 100px;
+    float: left;
+}
+
+#section1 {
+    margin: 0px 280px 0px 130px;
+    padding-right: 15px;
+    overflow: auto;
+}
+
+#linea1 {
+    border-bottom: 2px solid #000;
+    width: 335px;
+    margin-left: 314px;
+    margin-top: 13px;
+}
+
+#titulo {
+    margin-left: 100px;
+    padding: 10px 10px;
+}
+
+#section2 {
+    margin: 12px 0px 0px 100px;
+    border: solid 2px #000;
+    width: 187px;
+    height: 187px;
+    clear: both;
+    overflow: auto;
+    float: left;
+    padding: 5px 5px 5px 5px;
+}
+
+#section3 {
+    float: left;
+    padding-left: 14px;
+}
+
+#section3 ul {
+    list-style-type: none;
+}
+
+#linea2 {
+    border-bottom: 2px solid #000;
+    width: 335px;
+    margin-left: 314px;
+    margin-top: 220px;
+}
+
+#article2 {
+    margin-top: 20px;
+    width: 80%;
+}
+
+#section4 {
+    clear: both;
+    float: left;
+    border: solid 2px #000;
+    margin: 0px 0px 0px 100px;
+    width: 534px;
+    height: 290px;
+    padding: 6px;
+}
+
+#section5 {
+    float: left;
+    margin: -202px 12px 0px 213px;
+    padding-right: 3px;
+    overflow: auto;
+}
+
+.discos {
+    border: solid 2px #000;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 2px;
+}
+
+#listaheader ul {
+    font-size: 12px;
+    margin: 10px 80px 10px 80px;
+    text-align: center;
+    margin-top: 10px;
+    width: 1200px;
+    border-bottom: 5px solid black;
+}
+
+#listaheader ul li {
+    display: inline-block;
+    width: 140px;
+    margin: 0px 2px 10px 2px;
+    height: 30px;
+}
+
+#listaheader ul li a {
+    color: rgb(65, 59, 59);
+    text-decoration: none;
+}
+
+#listaheader ul li a:hover {
+    color: rgb(255, 253, 253);
+}
+
+main {
+    margin: 30px 200px 60px 200px;
+    height: 1200px;
+    width: 950px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(51, 48, 37, 0.062);
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+    margin-bottom: -27px;
+}
+
+#input {
+    border-radius: 10px 10px
+}
+
+#social {
+    clear: both;
+    padding: 10px;
+}
+
+#red1,
+#red2,
+#red3 {
+    width: 45px;
+    height: 45px;
+    background-image: url("img/sprite.png");
+    border-radius: 25px 25px;
+}
+
+#red1 {
+    background-position: 0 0;
+}
+
+#red2 {
+    background-position: -45px 0;
+}
+
+#red3 {
+    background-position: -90px 0;
+}
+
+#red1:hover {
+    background-position: 0 -45px;
+}
+
+#red2:hover {
+    background-position: -45px -45px;
+}
+
+#red3:hover {
+    background-position: -90px -45px;
+}
+
+#article3 {
+    margin-top: 20px;
+}
+
+#figure2 {
+    clear: both;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+.discos2 {
+    border: solid 2px #000;
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin: 5px;
+}
+
+#aside {
+    float: right;
+    margin: -950px 0px 0px 0px;
+}
+
+#aside,
+h3 {
+    margin-bottom: 15px;
+}
+
+#aside,
+li {
+    list-style-type: none;
+}
+
+figcaption {
+    text-align: right;
+}
+
+#inputButton {
+    font-size: 9px;
+    background-image: url('img/iconoBuscar.png');
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    width: 110px;
+    height: 15px;
+    border-radius: 10px;
+    border-color: #000;
+}
