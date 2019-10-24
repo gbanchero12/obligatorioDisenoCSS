@@ -262,6 +262,16 @@ figcaption {
 
 footer {
     padding-bottom: 70px;
-    background-color: rgba(142, 132, 132, 0.61);
+    background-color: rgba(9, 9, 0, 0.61)
     
+}
+
+#verMas{
+    background-color: rgba(9, 9, 0, 0.61);
+    padding-bottom: -5px;
+    text-align-last: right;
+    width: 91%;
+    margin-top: 260px;
+    font-size: 11px;
+    clear: both;	
 }
