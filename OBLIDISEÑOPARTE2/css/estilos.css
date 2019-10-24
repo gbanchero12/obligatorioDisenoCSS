@@ -1,134 +1,184 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
-    border:0;
+    border: 0;
 }
 
-body{
+body {
+    overflow: hidden;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1{
-	letter-spacing: 10px;
-	color: white;
-	text-align: center;
-	padding: 30px 10px;
-	display: block;
-	background-color:#ffb200;
+h1 {
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    display: block;
+    background-color: #ffb200;
 }
 
-h2{
-	color: #5cbfe9;
-	padding: 30px 0;
-	letter-spacing: 2px;
-	padding-left: 20px;
+h2 {
+    color: #5cbfe9;
+    padding: 30px 0;
+    letter-spacing: 2px;
+    padding-left: 20px;
 }
 
-h3,p{
-	font-size: 16px;
+h3,
+p {
+    font-size: 16px;
 }
 
-h3{
-	padding-top: 10px;
+h3 {
+    padding-top: 10px;
 }
 
 
 /* CON MENU BARRA LATERAL */
-nav{
-    background-color: #777c85;
-	width: 200px;  
-	height: 100%; /*ALTO EN % PARA CUBRIR TODA LA PANTALLA*/
-    position: fixed; /*ACA LO DEJO FIJO*/
-    top:0; /*ACA ES COMO LO POSICIONO EN TOP. POR DEFECTO ES LEFT:0 TOP:0*/
+
+nav {
+    border-top: solid 4px #000;
+    background-color: #cecfd3;
+    width: 200px;
+    height: 100%;
+    /*ALTO EN % PARA CUBRIR TODA LA PANTALLA*/
+    position: fixed;
+    /*ACA LO DEJO FIJO*/
+    top: 70px;
+    /*ACA ES COMO LO POSICIONO EN TOP. POR DEFECTO ES LEFT:0 TOP:0*/
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
 }
 
-nav ul li a{
-    background-color: #b9c0c9;
-    color:#4f5a6a;
+nav ul li a {
+    font-size: 12PX;
+    background-color: #e9ecf0ee;
+    color: #4f5a6a;
     text-decoration: none;
     display: block;
-    padding: 10px 0 10px 50px;
-	border-bottom: 1px solid #434f5f;
-
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid #434f5f;
 }
 
-nav ul li a:hover{
-    background-color: #777c85;
+nav ul li a:hover {
+    background-color: #c3c4c9a4;
 }
 
-span img{
-	position: absolute;
-	top: 30%; /*SI NO LE PONGO TOP, SE VA POSICIONAR SOBRE LA DERECHA SOLAMENTE, DONDE ESTA UBICADO, AL SACARLE EL RELATIVE DEL LI*/
-	left: 10%;
-	margin-right: 10px;
-	width: 20px;
-	height: 20px;
-	
+span img {
+    position: absolute;
+    top: 30%;
+    /*SI NO LE PONGO TOP, SE VA POSICIONAR SOBRE LA DERECHA SOLAMENTE, DONDE ESTA UBICADO, AL SACARLE EL RELATIVE DEL LI*/
+    left: 10%;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
 }
 
-main{
-    padding-left:200px; /* PARA CORRERLO DEL MENU*/
+main {
+    padding-left: 200px;
+    /* PARA CORRERLO DEL MENU*/
 }
 
-table{
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-	border-collapse: collapse; /*COLAPSA LOS BORDES Y QUITA EL ESPACIO*/
+table {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    /*COLAPSA LOS BORDES Y QUITA EL ESPACIO*/
 }
 
-tr{
-	height: 80px;
-	border-bottom: 1px solid #999999;
-	color: #616161;
+tr {
+    height: 80px;
+    border-bottom: 1px solid #999999;
+    color: #616161;
 }
 
-tr:hover{
-	background-color: #dff9ff;
+tr:hover {
+    background-color: #dff9ff;
 }
 
-.destacado{
-	background-color: #fafafa;
-	height: 40px;
-	color: black;
+.destacado {
+    background-color: #fafafa;
+    height: 40px;
+    color: black;
 }
 
-.destacado:hover{
-	background-color: #fafafa;
+.destacado:hover {
+    background-color: #fafafa;
 }
 
-th{
-	text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: 2px;
+th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
-td img{
-	width: 60px;
-	height: 60px;
-	float: left;
-	margin-left: 50px;
-	border-radius: 50%;
+td img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 50px;
+    border-radius: 50%;
 }
 
-.aprobado{
-	background-color:#19B444;
-	padding: 10px 15px;
-	color: white;
-	border-radius: 8px;
+.aprobado {
+    background-color: #19B444;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 8px;
 }
 
-.noAprobado{
-	background-color:#E02124;
-	padding: 10px 15px;
-	color: white;
-	border-radius: 8px;
+.noAprobado {
+    background-color: #E02124;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 8px;
 }
 
-h2{
+h2 {
     text-align: left;
+}
+
+
+/*HEADER*/
+
+#listaheader {
+    font-size: 0px;
+    margin: 20px 80px 10px 80px;
+    width: 100%;
+    border-bottom: 4px solid #000;
+    text-decoration-line: none;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+}
+
+#divUser {
+    float: right;
+    margin-right: 110px;
+}
+
+#divUser ul {
+    font-size: 13px;
+    list-style-type: none;
+}
+
+#divUser li {
+    float: left
+}
+
+#inputButton {
+    background-color: #000;
+    border-color: #8E8484;
+    color: #8E8484;
+    font-size: 10px;
+    padding: 2px 10px;
+    text-align: center;
+    margin-left: 2px;
 }

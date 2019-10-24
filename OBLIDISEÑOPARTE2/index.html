@@ -1,133 +1,62 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    </head>
-    <body>
-		
-        <nav>
-			<h1>AULAS</h1>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+    <header id="listaheader">
+        <img id="logo" src="img/logo.png">
+        <div id="divUser">
             <ul>
                 <li>
-                    <a href="#1"><span></span>DASHBOARD</a>
-                </li><li>
-                    <a href="#2"><span></span>CREAR EVENTO</a>
-                </li><li>
-                    <a href="#3"><span></span>LISTADO DE EVENTOS</a>
-                </li><li>
-                    <a href="#4"><span></span>REPORTES</a>
-				</li>
-				<li>
-                    <a href="#4"><span></span>DESTACADOS</a>
-				</li>
-				<li>
-                    <a href="#4"><span></span>AGENTES DE VENTAS</a>
-                </li>
-            </ul>
-        </nav>
-        <main>
-			
-            <table>
-                <thead><tr>
-                        <td colspan="6"><h2>Resultados</h2></td>
-					
-				</tr></thead>
-                <tbody>
-                    <tr class="destacado">
-					<th>Alumno</th>
-					<th>Nro. Estudiante</th>
-					<th>Obligatorio 1</th>
-					<th>Obligatorio 2</th>
-					<th>TOTAL</th>
-					<th>resultado</th>
-				</tr>
-				
-				<tr>
-					<td><img src="img/estudiante.png"><h3>Lucas Gonzalez</h3><p>Estudiante de Medicina</p></td>
-					<td>167893</td>
-					<td>23 pts</td>
-					<td>65 pts</td>
-					<td>88 pts</td>
-					<td><span class="aprobado">Aprobado</span></td>
-				</tr>
-				
-				<tr>
-					<td><img src="img/estudiante.png"><h3>Lucas Gonzalez</h3><p>Estudiante de Medicina</p></td>
-					<td>167893</td>
-					<td>23 pts</td>
-					<td>65 pts</td>
-					<td>88 pts</td>
-					<td><span class="noAprobado">NO Aprobado</span></td>
-				</tr>
-				
-				<tr>
-					<td><img src="img/estudiante.png"><h3>Lucas Gonzalez</h3><p>Estudiante de Medicina</p></td>
-					<td>167893</td>
-					<td>23 pts</td>
-					<td>65 pts</td>
-					<td>88 pts</td>
-					<td><span class="aprobado">Aprobado</span></td>
-				</tr>
-				
-				<tr>
-					<td><img src="img/estudiante.png"><h3>Lucas Gonzalez</h3><p>Estudiante de Medicina</p></td>
-					<td>167893</td>
-					<td>23 pts</td>
-					<td>65 pts</td>
-					<td>88 pts</td>
-					<td><span class="aprobado">Aprobado</span></td>
-				</tr>
-				
-				<tr>
-					<td><img src="img/estudiante.png"><h3>Lucas Gonzalez</h3><p>Estudiante de Medicina</p></td>
-					<td>167893</td>
-					<td>23 pts</td>
-					<td>65 pts</td>
-					<td>88 pts</td>
-					<td><span class="noAprobado">NO Aprobado</span></td>
-				</tr>
-				
-				<tr>
-					<td><img src="img/estudiante.png"><h3>Lucas Gonzalez</h3><p>Estudiante de Medicina</p></td>
-					<td>167893</td>
-					<td>23 pts</td>
-					<td>65 pts</td>
-					<td>88 pts</td>
-					<td><span class="noAprobado">NO Aprobado</span></td>
-				</tr>
-				
-				<tr>
-					<td><img src="img/estudiante.png"><h3>Lucas Gonzalez</h3><p>Estudiante de Medicina</p></td>
-					<td>167893</td>
-					<td>23 pts</td>
-					<td>65 pts</td>
-					<td>88 pts</td>
-					<td><span class="noAprobado">NO Aprobado</span></td>
-				</tr>
-                                <tr>
-					<td><img src="img/estudiante.png"><h3>Lucas Gonzalez</h3><p>Estudiante de Medicina</p></td>
-					<td>167893</td>
-					<td>23 pts</td>
-					<td>65 pts</td>
-					<td>88 pts</td>
-					<td><span class="noAprobado">NO Aprobado</span></td>
-				</tr>
-                                <tr>
-					<td><img src="img/estudiante.png"><h3>Lucas Gonzalez</h3><p>Estudiante de Medicina</p></td>
-					<td>167893</td>
-					<td>23 pts</td>
-					<td>65 pts</td>
-					<td>88 pts</td>
-					<td><span class="noAprobado">NO Aprobado</span></td>
-				</tr>
-                </tbody>
-			</table>
-        </main>
 
-    </body>
+                    <h5 id="user">Hola, <strong>Guillermo Banchero</strong></h5>
+                </li>
+                <li>
+                    <input id="inputButton" type="button" value="SALIR" />
+                </li>
+
+            </ul>
+        </div>
+
+
+
+    </header>
+
+    <nav>
+
+        <ul>
+            <li>
+                <a href="#1"><span></span>DASHBOARD</a>
+            </li>
+            <li>
+                <a href="#2"><span></span>CREAR EVENTO</a>
+            </li>
+            <li>
+                <a href="#3"><span></span>LISTADO DE EVENTOS</a>
+            </li>
+            <li>
+                <a href="#4"><span></span>REPORTES</a>
+            </li>
+            <li>
+                <a href="#4"><span></span>DESTACADOS</a>
+            </li>
+            <li>
+                <a href="#4"><span></span>AGENTES DE VENTAS</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+
+    </main>
+
+</body>
+
 </html>
