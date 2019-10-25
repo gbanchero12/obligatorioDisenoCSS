@@ -60,11 +60,11 @@ nav ul li a {
     text-decoration: none;
     display: block;
     padding: 10px 0 10px 10px;
-    border-bottom: 1px solid #434f5f;
+    border-bottom: 3px solid #cecfd3;
 }
 
 nav ul li a:hover {
-    background-color: #c3c4c9a4;
+    background-color: #aaabafa4;
 }
 
 span img {
@@ -78,12 +78,12 @@ span img {
 }
 
 main {
-    padding-left: 200px;
+    padding-left: 100px;
     /* PARA CORRERLO DEL MENU*/
 }
 
 table {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
     border-collapse: collapse;
@@ -91,7 +91,7 @@ table {
 }
 
 tr {
-    height: 80px;
+    height: 10px;
     border-bottom: 1px solid #999999;
     color: #616161;
 }
@@ -102,7 +102,7 @@ tr:hover {
 
 .destacado {
     background-color: #fafafa;
-    height: 40px;
+    height: 10px;
     color: black;
 }
 
@@ -111,8 +111,7 @@ tr:hover {
 }
 
 th {
-    text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 2px;
 }
 
@@ -181,4 +180,13 @@ h2 {
     padding: 2px 10px;
     text-align: center;
     margin-left: 2px;
+}
+
+
+/*MAIN*/
+
+#table {
+    margin: 20px 20px 20px 20px;
+    width: 90%;
+    height: 60%;
 }
