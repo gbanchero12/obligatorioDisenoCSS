@@ -27,11 +27,14 @@ header {
 
 h1,
 h2,
-h3,
-h4,
-h5 {
-    color: rgb(65, 59, 59);
+h3, 
+h4
+ {
+    color:#000;
 }
+
+
+h5{ color:rgb(94, 92, 92);}
 
 
 /*arriba derecha abajo izquierda*/
@@ -245,7 +248,7 @@ figcaption {
     
     width: 44px;
     height: 44px;
-    background-image: url("img/sprite.png");
+    background-image: url("img/sprite2.png");
     border-radius: 25px 25px;
 }
 
