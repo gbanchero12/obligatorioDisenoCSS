@@ -213,7 +213,10 @@ figcaption {
 
 .divBottom {
     float: left;
-    margin: 13px 0px;
+    margin: 13px 0px 0px 10px;
+    word-wrap: break-word;
+    width: 100px;
+    font-size: 10px;
 }
 
 .marcoDiscosBottom {
@@ -294,7 +297,7 @@ footer {
     padding-bottom: -5px;
     text-align-last: right;
     width: 91%;
-    margin-top: 260px;
+    margin-top: 269px;
     font-size: 11px;
     clear: both;	
 }
