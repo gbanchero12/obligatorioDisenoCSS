@@ -39,6 +39,7 @@ h5{ color:rgb(94, 92, 92);}
 
 /*arriba derecha abajo izquierda*/
 
+
 #titulo {
     margin-left: 100px;
     padding: 10px 10px;
@@ -60,7 +61,7 @@ h5{ color:rgb(94, 92, 92);}
 #section {
     clear: both;
     float: left;
-    margin: 10px 0px 0px 100px;
+    margin: 40px 0px 0px 100px;
     width: 534px;
     height: 290px;
     padding: 6px;
@@ -72,6 +73,7 @@ h5{ color:rgb(94, 92, 92);}
     color: #8E8484;
     font-size: 10px;
     padding: 2px 10px;
+    margin: 4px 4px;
     text-align: center;
     
 }
@@ -156,15 +158,15 @@ h5{ color:rgb(94, 92, 92);}
 
 #marcoAside {
     background-color: rgb(15, 15, 15,0.090);
-    margin-top: -27px;
-    padding: 10px 10px 10px 10px;
+    margin-top: 35px;
+    padding: 10px 10px 10px 18px;
     
     
 }
 
 #aside {
     float: right;
-    margin: 0 auto;
+    margin: 0 90px 0px 0px;
     width: 20%;
 
 }
@@ -199,10 +201,10 @@ figcaption {
 }
 
 .article2 {
-    margin: 30px 200px 60px 200px;
+    margin: 130px 200px 60px 200px;
     height: 220px;
     width: 950px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 20px 10px;
     
 }
 
@@ -300,7 +302,7 @@ footer {
     padding-bottom: -5px;
     text-align-last: right;
     width: 91%;
-    margin-top: 269px;
+    margin-top: 279px;
     font-size: 11px;
     clear: both;	
 }
