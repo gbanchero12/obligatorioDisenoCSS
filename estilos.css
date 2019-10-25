@@ -200,6 +200,12 @@ figcaption {
     height: 220px;
     width: 950px;
     padding: 10px 10px 10px 10px;
+    
+}
+
+.column1{
+    word-wrap: break-word;
+    width: 250px;
 }
 #withBackground{
     background-color: rgba(51, 48, 37, 0.062);
@@ -266,7 +272,8 @@ figcaption {
 
 #footerTitle{
     float: left;
-    margin-left: 300px;
+    margin: 17px 0px 0px 300px;
+    
 }
 
 #footerImg{
