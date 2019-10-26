@@ -7,8 +7,20 @@
 body {
     overflow: hidden;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*Color de fuente*/
+
+h5 {
+    color: rgb(94, 92, 92);
+}
 
 
 /* CON MENU BARRA LATERAL */
@@ -30,7 +42,6 @@ nav ul {
 }
 
 nav ul li a {
-    font-size: 12PX;
     background-color: #e9ecf0ee;
     color: #4f5a6a;
     text-decoration: none;
@@ -42,7 +53,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #aaabafa4;
 }
-
 
 main {
     padding-left: 100px;
@@ -60,13 +70,12 @@ table {
 tr {
     height: 15px;
     color: #616161;
-    background-color:#e9ecf0ee;
+    background-color: #e9ecf0ee;
 }
 
-.seg{
+.seg {
     background-color: #cecfd3;
 }
-
 
 .destacado {
     background-color: #fafafa;
@@ -80,7 +89,6 @@ tr {
 
 th {
     font-size: 14px;
-    
 }
 
 td img {
@@ -88,7 +96,6 @@ td img {
     height: 16px;
     margin: 2px 0px 0px 10px;
 }
-
 
 h2 {
     text-align: left;
@@ -125,6 +132,10 @@ h2 {
     float: left
 }
 
+#user strong {
+    color: #000;
+}
+
 #inputButton {
     background-color: #000;
     border-color: #8E8484;
@@ -144,7 +155,7 @@ h2 {
     height: 60%;
 }
 
-header{
+header {
     margin: 30px 0px 30px 127px;
 }
 
@@ -152,7 +163,7 @@ header{
     margin-left: 600px;
     border-radius: 10px;
     border: solid 1px;
-    border-color:#000;
+    border-color: #000;
     font-size: 9px;
     background-image: url(../img/iconoBuscar2.png);
     background-repeat: no-repeat;
@@ -161,3 +172,15 @@ header{
     height: 15px;
 }
 
+#page {
+    margin: 7px 0px 0px 890px;
+    letter-spacing: 4px;
+}
+
+#selected {
+    background-color: #000;
+}
+
+.selected2:hover {
+    background-color: #cecfd3;
+}
