@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+* {
+    margin: 0;
+    padding: 0
+}
+
+header,
+section,
+article,
+main {
+    display: block;
+}
+
+body {
+    background: url(img/pattern.jpg);
+    font-family: 'Be Vietnam', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+header {
+    text-align: center;
+    padding: 20px 20px;
+}    
+
+/*Color de titulos*/
+h1,
+h2,
+h3, 
+h4
+{
+    color:#000;
+} 
+/*Color de fuente*/
+h5{ color:rgb(94, 92, 92);}
+
+/*Menu principal*/
+
+#inputButtonEventos {
+    font-size: 9px;
+    background-image: url('img/iconoBuscar.png');
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    width: 110px;
+    height: 15px;
+    border-radius: 10px;
+    border-color: #000;
+}
+
+#listaheader ul {
+    font-size: 12px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    border-bottom: 5px solid black;
+}
+
+#listaheader ul li {
+    display: inline-block;
+    width: 140px;
+    margin: 0px 2px 10px 2px;
+    height: 30px;
+}
+
+#listaheader ul li a {
+    color: rgb(65, 59, 59);
+    text-decoration: none;
+}
+
+#listaheader ul li a:hover {
+    color: rgb(255, 253, 253);
+}
+
+
+/*botones*/
+.inputButton{
+    background-color: #000;
+    border-color: #8E8484;
+    color: #8E8484;
+    font-size: 10px;
+    padding: 2px 10px;
+    margin: 4px 4px;
+    text-align: center;
+        
+}    
+
+    #titulo {
+        margin-left: 100px;
+        padding: 10px 10px;
+    font-size: 18px;
+}    
+
+#insertar{
+    padding: 30px 0px;
+    background-color: rgba(51, 48, 37, 0.062);
+}    
+
+/*Main: Secciones de musica conferencias y deportes*/
+
+#verMas{
+    background-color: rgb(15, 15, 15,0.090);
+    padding-bottom: -5px;
+    text-align-last: right;
+    width: 91%;
+    margin-top: 279px;
+    font-size: 11px;
+    clear: both;	
+}
+
+.ventas {
+    float: left;
+    width: 70%;
+}
+
+figcaption {
+    text-align: left;
+}
+
+#section {
+    float: left;
+    margin: 40px 0px 0px 100px;
+    width: 534px;
+    height: 290px;
+    padding: 6px;
+}    
+
+.discos {
+    border: solid 2px #000;
+    width: 150px;
+    height: 150px;
+    float: left;
+}    
+
+.marcoDiscos {
+    width: 150px;
+    height: 250px;
+    float: left;
+    margin: 6px;
+}    
+
+#bigArticle {
+    margin: 30px 200px 60px 200px;
+    height: 1000px;
+    width: 950px;
+    padding: 10px 10px 10px 10px;
+}
+
+/*Menu aside*/
+
+.asideImg {
+    width: 150px;
+    height: 100px;
+    border: solid 2px #000;
+    margin-top: 10px;
+}    
+
+
+#marcoAside {
+    background-color: rgb(15, 15, 15,0.090);
+    margin-top: 35px;
+    padding: 10px 10px 10px 18px;    
+}
+
+#aside {
+    float: right;
+    margin: 0 90px 0px 0px;
+    width: 20%;
+
+}
+
+#aside,
+li {
+    list-style-type: none;
+}
+
+/*Logo*/
+
+#logo {
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+    margin-bottom: -27px;
+}
+
+
+/*Bottom elements*/
+
+#inputSuscripcion{
+    width: 330px;
+    height: 20px;
+}
+
+.article2 {
+    margin: 130px 200px 60px 200px;
+    height: 220px;
+    width: 950px;
+    padding: 10px 10px 20px 10px;    
+}
+
+.column1{
+    word-wrap: break-word;
+    width: 250px;
+}
+#withBackground{
+    background-color: rgba(51, 48, 37, 0.062);
+}
+
+.divBottom {
+    float: left;
+    margin: 13px 0px 0px 10px;
+    word-wrap: break-word;
+    width: 100px;
+    font-size: 10px;
+}
+
+.marcoDiscosBottom {
+    width: 225px;
+    height: 250px;
+    float: left;
+    margin: 20px 0px 0px 10px;
+}
+
+#sectionBottom {
+    margin: 10px 10px 10px 100px;
+    float: left;
+}
+
+.discosBottom {
+    border: solid 2px #000;
+    width: 220px;
+    height: 150px;
+    float: left;
+}
+
+/*Footer*/
+
+#red1,
+#red2,
+#red3 {
+    
+    width: 44px;
+    height: 44px;
+    background-image: url("img/sprite2.png");
+    border-radius: 25px 25px;
+}
+
+#red1 {
+    background-position: 0 0;
+}
+
+#red2 {
+    background-position: -45px 0;
+}
+
+#red3 {
+    background-position: -90px 0;
+}
+
+#red1:hover {
+    background-position: 0 -45px;
+}
+
+#red2:hover {
+    background-position: -45px -45px;
+}
+
+#red3:hover {
+    background-position: -90px -45px;
+}
+
+#footerTitle{
+    float: left;
+    margin: 17px 0px 0px 300px;
+    
+}
+
+#footerImg{
+    float: right;
+    margin-right: 280px;
+    margin-top:10px;
+}
+
+
+footer {
+    padding-bottom: 70px;
+    background-color: rgba(9, 9, 0, 0.61)
+    
+}
