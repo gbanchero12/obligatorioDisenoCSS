@@ -7,7 +7,7 @@
 body {
     overflow: hidden;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 a {
@@ -18,8 +18,9 @@ a {
 
 /*Color de fuente*/
 
-h5 {
+h5{
     color: rgb(94, 92, 92);
+    
 }
 
 
@@ -146,6 +147,10 @@ h2 {
     margin-left: 2px;
 }
 
+#crear #inputButton{
+    display: block;
+}
+
 
 /*MAIN*/
 
@@ -188,12 +193,52 @@ header {
 
 /*CREAR EVENTO*/
 
-.input {
+input, select {
     border: solid 0.5px #000;
     height: 18px;
-    display: block;
+    margin-bottom: 10px;
+}
+
+select{
+    width: 164px;
+    font-size: 12px;
 }
 
 form{
     margin-left: 130px;
+}
+
+#rightFrom{float:right;
+            margin: -10px 720px 0px 0px;}
+
+#text{
+    width: 80px;
+}
+
+#textTime{
+    width: 80px;
+}
+
+#leftForm{float:left;}
+
+#block{
+    display: block;
+}
+
+span{color: rgb(94, 92, 92);
+    font-size: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;}
+
+.titles{
+    margin-top: 7px;
+}
+
+#imgLogo{
+    position: absolute;
+    left: 640px;
+    top: 190px;
+    width: 220px;
+    height: 250px;
 }

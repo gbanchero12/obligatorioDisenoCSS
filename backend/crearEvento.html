@@ -40,7 +40,7 @@
                 <a href="#2">CREAR EVENTO</a>
             </li>
             <li>
-                <a href="#3">LISTADO DE EVENTOS</a>
+                <a href="listado.html">LISTADO DE EVENTOS</a>
             </li>
             <li>
                 <a href="#4">REPORTES</a>
@@ -56,38 +56,45 @@
     <main>
 
         <header>
-            <h5>Administrador > Crear Evento</h5>
-            <h1>CREAR EVENTO</h1>
-            <h5>Campos obligatorios(*)</h5>
+            <h5 class="titles">Administrador > Crear Evento</h5>
+            <h1 class="titles"> CREAR EVENTO</h1>
+            <h5 class="titles">Campos obligatorios(*)</h5>
         </header>
         <article>
             <form>
+                <section id="leftForm">
                 <h5>Nombre de evento(*)</h5>
-                <input type="text" class="input 1" />
-                <h5>Precio 1(*)</h5>
-                <input type="text" class="input 2" />
+                <input type="text" />
                 <h5>Organizador(*)</h5>
-                <input type="text" class="input 3" />
-                <h5>Precio 2</h5>
-                <input type="text" class="input 4" />
+                <select type="text"><option>Cartagena Producciones</option>
+                    <option>Lima Producciones</option>
+                    <option>Rio Producciones</option></select>
                 <h5>Lugar(*)</h5>
-                <input type="text" class="input 5" />
-                <h5>Precio 3</h5>
-                <input type="text" class="input 4" />
-                <h5>Día(*)</h5>
-                <input type="text" class="input 4" />
-                <h5>Hora(*)</h5>
-                <input type="text" class="input 4" />
-                <h5>Más precios</h5>
-                <input type="radio" class="input 5" />
-                <input type="radio" class="input 5" />
+                <input type="text" id="block"/>
+                <span>Día(*)</span><span>Hora(*)</span><p>
+                <input type="text" id="textTime" placeholder="00/00/00">
+                <input type="text" id="textTime" placeholder="00:00"/></p>
                 <h5>Imagen</h5>
-                <input type="text" class="input 4" />
-                <input type="button" class="input 4" value="Examinar" />
-
-                <input type="button" id="inputButton" value="INGRESAR" />
+                <input type="text"/>
+                <input type="button" value="Examinar" />
+                <div><input type="button" id="inputButton" value="INGRESAR" /></div>
+            </section>
+            <section id="rightFrom">
+                <input type="checkbox"/><span> Destacar</span>                   
+                <h5>Precio 1(*)</h5>
+                <input type="text" id="text"/>
+                <h5>Precio 2</h5>
+                <input type="text" id="text"/>
+                    <h5>Precio 3</h5>
+                    <input type="text" id="text"/>
+                    <h5>Más precios</h5>
+                    <span>Si</span> <input type="radio"/>
+                    <span>No</span> <input type="radio" checked/>
+                </section>
             </form>
-
+            <section>
+                <img id="imgLogo" src="img/logo.png" alt="Logo de página" title="Logo"/>
+            </section>
         </article>
     </main>
 
