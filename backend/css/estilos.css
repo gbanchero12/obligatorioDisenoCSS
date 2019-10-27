@@ -242,3 +242,39 @@ span{color: rgb(94, 92, 92);
     width: 220px;
     height: 250px;
 }
+
+/*Login*/
+
+#login{
+    background-color: rgba(51, 48, 37, 0.062);
+    width: 270px;
+    height: 300px;
+    position:fixed;
+    top: 25%;
+    left: 38%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+#logoIndex{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+#inputFilterLogin {
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: #000;
+    background-color: rgba(51, 48, 37, 0.062);
+    font-size: 9px;
+    width: 165px;
+    height: 15px;
+    text-align: center;
+}
+
+.loginTxt{ margin-bottom: 10px;}
+
+.loginTxt2{ margin-bottom: 10px; width: 170px;}
+
+.loginTxt3{ margin: 0px 0px 10px 55px; text-align: left;}
